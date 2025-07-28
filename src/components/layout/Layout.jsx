@@ -13,7 +13,7 @@ const Layout = ({ children }) => {
     <div className="flex flex-col h-screen bg-gray-50">
       <Navbar toggleSidebar={toggleSidebar} />
       
-      <div className="flex flex-1 overflow-hidden">
+      <div className="flex flex-1 overflow-hidden pt-16">
         <Sidebar isOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
         
         <main className="flex-1 overflow-auto p-4 md:p-6 lg:p-8">

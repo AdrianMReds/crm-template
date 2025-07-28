@@ -36,7 +36,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
           fixed top-16 left-0 h-[calc(100vh-64px)] w-64 bg-white shadow-md z-30
           transform transition-transform duration-300 ease-in-out
           ${isOpen ? 'translate-x-0' : '-translate-x-full lg:translate-x-0'}
-          lg:static lg:h-[calc(100vh-64px)] lg:z-0
+          lg:static lg:h-full lg:z-0
         `}
       >
         <div className="p-4">
